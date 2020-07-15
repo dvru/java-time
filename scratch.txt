@@ -3,3 +3,9 @@ The eight types are: boolean, byte, char, short, int, long, float and double.
 Consider these types as building blocks of data manipulation.
 
 MIN_VALUE AND MAX_VALUE, tell us min and max ranges of nums that can be stored.
+
+A Byte occupies 8 bits, Byte has a width of 8
+A short can store large range of nums and occupies 16 bits, width of 16
+An int, has a much larger range, occupies 32 bits, width of 32
+
+Int needs four times the amount of space, than a byte.

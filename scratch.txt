@@ -7,5 +7,14 @@ MIN_VALUE AND MAX_VALUE, tell us min and max ranges of nums that can be stored.
 A Byte occupies 8 bits, Byte has a width of 8
 A short can store large range of nums and occupies 16 bits, width of 16
 An int, has a much larger range, occupies 32 bits, width of 32
-
 Int needs four times the amount of space, than a byte.
+Integer Minimum Value = -2147483648
+Integer Maximum Value = 2147483647
+Busted Max value = -2147483648
+Busted Min value = 2147483647
+Byte Minimum Value = -128
+Byte Maximum Value = 127
+Short Minimum Value = -32768
+Short Maximum Value = 32767
+Long Minimum Value = -9223372036854775808
+Long Maximum Value = 9223372036854775807

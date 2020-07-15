@@ -1,0 +1,5 @@
+In Java primitive types are the most basic types, The Int is one of eight.
+The eight types are: boolean, byte, char, short, int, long, float and double.
+Consider these types as building blocks of data manipulation.
+
+MIN_VALUE AND MAX_VALUE, tell us min and max ranges of nums that can be stored.

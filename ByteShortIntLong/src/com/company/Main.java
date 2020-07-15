@@ -20,8 +20,5 @@ public class Main {
         System.out.println("Byte Minimum Value = " + myMinByteValue);
         System.out.println("Byte Maximum Value = " + myMaxByteValue);
 
-
-
-
     }
 }

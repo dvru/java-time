@@ -1,4 +1,4 @@
-public class challange {
+public class challenge {
     public static void main(String[] args) {
 
         byte byteValue = 10;
@@ -8,6 +8,7 @@ public class challange {
         long longTotal = 50000L + 10L *
                 (byteValue + shortValue + intValue);
         System.out.println(longTotal);
+
     }
 }
 

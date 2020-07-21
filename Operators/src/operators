@@ -1,0 +1,15 @@
+Operators
+    Operators in Java are special symbols that perform specific operations on one, two or three operands,
+    and then return a result. ex. +
+
+Operand
+    Used to describe any object that is manipulated by an operator
+        int myVar = 15 + 12;
+        + is the operator
+        15, 12 are the operands
+
+Expression
+    formed by combining variables, literals, method return value
+    int myVar = 15 + 12;
+    15 + 12 is the expression which returns 27
+

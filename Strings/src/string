@@ -8,5 +8,5 @@ Contains a sequence of characters
 A large number of characters
 Technically it limited memory or the MAX_Value of an int which was 2.14 billion
 
-Strings in Java are mutable
+Strings in Java are Immutable
     You can change a string once its created, a new string is created by Java

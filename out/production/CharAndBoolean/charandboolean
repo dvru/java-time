@@ -1,0 +1,18 @@
+// Char
+    A char occupies twp bytes of memory, or 16bits, width of 16
+        Its not just a single byte is that it allows you to store Unicode characters.
+
+// Unicode
+    UniCode is an international encoding standard for use with different languages and scripts,
+    by which each letter, digit, or symbol is assigned a unique numeric value that applies across
+    different platforms and programs
+
+    In the English alphabet, we have letter A through Z. Meaning only 26 characters are need in total to represent
+    the entire English alpha. But other lang need more char, and often a lot more.
+
+    Unicode allows up to represent these lang and the way it works is that by using
+    a combination of two bytes and that a char takes up in memory it can represent
+    and one of 65535 different types of characters
+
+// Boolean
+    A boolean value for 2 choices, True or False, Yes or No, 1 or 0.

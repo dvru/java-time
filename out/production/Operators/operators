@@ -17,3 +17,13 @@ if-then rule, Use a Code Block
     if (expression) {
         // put one or more statements here
     }
+
+
+Logical AND and Logical OR
+    The AND operator comes in two flavors in Java, as does the OR operator
+    && is the logical AND which operates booleans operands when checking a condition is true or false
+    || is a logical OR
+
+    & is bitwise operator working at a bit level
+    \ is bitwise operator working at a bit level
+

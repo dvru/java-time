@@ -1,0 +1,9 @@
+String
+
+The String is a Dt in Java, which is not a primitive type.
+It is actually a class.
+
+A sequence of characters
+Contains a sequence of characters
+A large number of characters
+Technically it limited memory or the MAX_Value of an int which was 2.14 billion

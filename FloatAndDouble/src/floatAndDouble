@@ -1,0 +1,11 @@
+Floating Point Numbers
+
+    Unlike whole numbers, floating point number have fractional parts that we express with a decimal
+    point, 3.14159 ex.
+    Floating point numbers are also known as real numbers. We use a floating point number when we need
+    more precision in calculations
+
+Single and Double Precision
+    Precision refers to format and amount of space by the type.
+        Single occupies 32bits, width of 32
+        Double occupies 64bits, width of 64

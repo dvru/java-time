@@ -1,4 +1,4 @@
-public class challenge {
+public class byteShortIntLong {
     public static void main(String[] args) {
 
         byte byteValue = 10;

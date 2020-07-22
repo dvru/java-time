@@ -1,10 +1,10 @@
 public class SpeedConverter {
 
     public static void main(String[] args) {
-        long miles = toMilePerHour(10.5);
+        long miles = toMilePerHour(75.114);
         System.out.println("Miles = " + miles);
 
-        printConversion(10.5);
+        printConversion(75.114);
     }
 
     public static long toMilePerHour(double kilometersPerHour) {

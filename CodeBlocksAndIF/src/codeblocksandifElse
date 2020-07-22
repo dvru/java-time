@@ -1,0 +1,18 @@
+If then Else Recap
+    The if statement identifies which statement or code block to run based on the value of an expression.
+    In other words based on a specific condition.
+
+    Inside the code block defined by curly braces
+    {and} we can have one or more multiple statements
+
+    We can use the else statement after the if, in that case when the condition is false the else block
+    will be executed
+    We can also add else if to test multiple conditions
+
+    if(condition) {
+        //if statement
+        execute line ( code block)
+    } else {
+        // else statement
+        execute line ( code block)
+    }

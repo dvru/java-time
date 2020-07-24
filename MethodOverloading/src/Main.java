@@ -6,7 +6,10 @@ public class Main {
         System.out.println("New Score is " + newScore);
         calculateScore(75);
         calculateScore();
-        calcFeetAndInchesToCentimeters(6, -10);
+        double centimeters = calcFeetAndInchesToCentimeters(6, 13);
+        if(centimeters <0.0){
+            System.out.println("Invalid params");
+        }
 
     }
 

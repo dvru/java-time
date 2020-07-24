@@ -13,4 +13,5 @@ public class EqualSumChecker {
         System.out.println("Not Equal");
         return false;
     }
+
 }

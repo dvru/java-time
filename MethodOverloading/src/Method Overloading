@@ -1,0 +1,6 @@
+Method Overloading
+    Improves code readability and re-usability
+    Easier to remember one method name instead of multiple names
+    Achieves consistency in naming
+    Overloaded methods give programmers the flexibility to call a similar method
+    with different types of data

@@ -2,6 +2,7 @@ public class MinutesToYearsDaysCalculator {
 
     public static void main(String[] args){
         printYearsAndDays(561600);
+        printYearsAndDays(561620);
     }
 
 

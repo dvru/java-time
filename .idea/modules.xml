@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CharAndBoolean/CharAndBoolean.iml" filepath="$PROJECT_DIR$/CharAndBoolean/CharAndBoolean.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CodeBlocksAndIF/CodeBlocksAndIF.iml" filepath="$PROJECT_DIR$/CodeBlocksAndIF/CodeBlocksAndIF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/Basics/ByteShortIntLong/ByteShortIntLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challenges/Challenges.iml" filepath="$PROJECT_DIR$/challenges/Challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/CharAndBoolean/CharAndBoolean.iml" filepath="$PROJECT_DIR$/Basics/CharAndBoolean/CharAndBoolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/CodeBlocksAndIF/CodeBlocksAndIF.iml" filepath="$PROJECT_DIR$/Basics/CodeBlocksAndIF/CodeBlocksAndIF.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/Constructors/OOP/Constructors.iml" filepath="$PROJECT_DIR$/OOP/Constructors/OOP/Constructors.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DiffMergeTool/DiffMergeTool.iml" filepath="$PROJECT_DIR$/DiffMergeTool/DiffMergeTool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" filepath="$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/DiffMergeTool/DiffMergeTool.iml" filepath="$PROJECT_DIR$/Basics/DiffMergeTool/DiffMergeTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/FloatAndDouble/FloatAndDouble.iml" filepath="$PROJECT_DIR$/Basics/FloatAndDouble/FloatAndDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/Basics/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/KeywordsAndExpressions/KeywordsAndExpressions.iml" filepath="$PROJECT_DIR$/KeywordsAndExpressions/KeywordsAndExpressions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MethodOverloading/MethodOverloading.iml" filepath="$PROJECT_DIR$/MethodOverloading/MethodOverloading.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/KeywordsAndExpressions/KeywordsAndExpressions.iml" filepath="$PROJECT_DIR$/Basics/KeywordsAndExpressions/KeywordsAndExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/MethodOverloading/MethodOverloading.iml" filepath="$PROJECT_DIR$/Basics/MethodOverloading/MethodOverloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Methods/Methods.iml" filepath="$PROJECT_DIR$/Basics/Methods/Methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" filepath="$PROJECT_DIR$/StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/challenge/challenge.iml" filepath="$PROJECT_DIR$/challenge/challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Operators/Operators.iml" filepath="$PROJECT_DIR$/Basics/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" filepath="$PROJECT_DIR$/Basics/StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Strings/Strings.iml" filepath="$PROJECT_DIR$/Basics/Strings/Strings.iml" />
     </modules>
   </component>
 </project>

@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/Basics/ByteShortIntLong/ByteShortIntLong.iml" />
-      <module fileurl="file://$PROJECT_DIR$/challenges/Challenges.iml" filepath="$PROJECT_DIR$/challenges/Challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Challenges/Challenges.iml" filepath="$PROJECT_DIR$/Challenges/Challenges.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics/CharAndBoolean/CharAndBoolean.iml" filepath="$PROJECT_DIR$/Basics/CharAndBoolean/CharAndBoolean.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics/CodeBlocksAndIF/CodeBlocksAndIF.iml" filepath="$PROJECT_DIR$/Basics/CodeBlocksAndIF/CodeBlocksAndIF.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/Constructors/OOP/Constructors.iml" filepath="$PROJECT_DIR$/OOP/Constructors/OOP/Constructors.iml" />

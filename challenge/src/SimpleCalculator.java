@@ -49,7 +49,6 @@ public class SimpleCalculator {
     }
 
 
-
     public double getDivisionResult(){
         if( secondNumber == 0){
             return 0;

@@ -9,7 +9,12 @@ public class Car {
 
     //create a setter
     public void setModel(String model) {
-        this.model = model;
+        String validModel = model.toLowerCase(); // validation
+        if(validModel.equals("carrera") || validModel.equals("commodore")) {
+            this.model = model;
+        } else {
+            this.model = "Unknown";
+        }
     }
 
     //create a getter

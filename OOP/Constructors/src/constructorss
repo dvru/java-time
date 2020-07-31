@@ -1,6 +1,8 @@
+
 OOP & CONSTRUCTORS
 
 Challenge 1
+
     Account & Main
         Create a new class for a bank account
         Create fields for the account number, balance, customer name, email and phone number.
@@ -14,6 +16,7 @@ Challenge 1
         Add some System.out.println's in the two methods above as well.
 
 Challenge 2
+
     VIP Person
           Create a new class VipCustomer
           it should have 3 fields name, credit limit, and email address.

@@ -10,24 +10,39 @@ public class Switch {
 //            System.out.println("Was not 1 or 2");
 //        }
 
-        int switchValue = 3;
+//        int switchValue = 3;
+//
+//        switch (switchValue){
+//            case 1:
+//                System.out.println("Value was 1");
+//            break;
+//            case 2:
+//                System.out.println("Value was 2");
+//            break;
+//
+//            case 3: case 4: case 5:
+//                System.out.println("Was a 3, or a 4, or a 5");
+//                System.out.println("It was a " + switchValue);
+//                break;
+//
+//            default:
+//                System.out.println("Was not 1 or 2");
+//        }
 
-        switch (switchValue){
-            case 1:
-                System.out.println("Value was 1");
-            break;
-            case 2:
-                System.out.println("Value was 2");
-            break;
 
-            case 3: case 4: case 5:
-                System.out.println("Was a 3, or a 4, or a 5");
-                System.out.println("It was a " + switchValue);
-                break;
+
+
+        char charValue = 'A';
+
+        switch(charValue){
+            case 'A':case 'B':case 'C':case 'D':case 'E':
+                System.out.println("You found " + charValue);
+            break;
 
             default:
-                System.out.println("Was not 1 or 2");
+                System.out.println("Was not A, B, C, D or E");
         }
+
 
     }
 }

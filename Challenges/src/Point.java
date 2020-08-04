@@ -10,6 +10,7 @@ public class Point {
         System.out.println("distance()= " + point.distance());
     }
 
+
     private int x;
     private int y;
 

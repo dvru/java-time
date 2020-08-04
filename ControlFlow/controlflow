@@ -3,3 +3,11 @@ Control Flow Statements
 Switch
     good to use when testing the same variable,
     test different values for that variable
+
+For Loop
+    for(init; condition; increment) {
+    // statements
+    }
+    semi colons are required;
+    increment known as the iterator or iteration step
+    curly braces to define loop code block (body)

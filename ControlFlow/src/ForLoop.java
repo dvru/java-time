@@ -16,6 +16,10 @@ public class ForLoop {
             System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
         }
 
+        for( int i = 9; i >= 2; i--){
+            System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
+        }
+
     }
 
     public static double calculateInterest( double amount, double interestRate){

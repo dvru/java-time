@@ -20,7 +20,7 @@ public class Main {
         bobsAccount.withdrawal(100.0);
 
 
-        //VIP persons
+        //VIP person
 
         VipPerson person1 = new VipPerson();
         System.out.println(person1.getName());

@@ -1,0 +1,5 @@
+Control Flow Statements
+
+Switch
+    good to use when testing the same variable,
+    test different values for that variable

@@ -16,3 +16,12 @@ while and do while break
     do {           <-- Curly braces to define loop code block (body)
         //statement
     }   while (condition);  <---semi colon required
+
+    The while loop checks the condition at the start before executing the block.
+    With the do while loop the code block is executed at least once and then the condition is checked
+    Be careful with conditions, it is easy to end up with endless loop, a loop that never end or to end
+        with a loop that never executes
+    Tip: always check your conditions/expressions
+    You can interrupt the loop with continue and break
+        continue: will bypass the park of the code block that is below the continue keyword
+        break: will exit the loop depending on the condition that we are checking

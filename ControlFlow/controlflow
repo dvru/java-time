@@ -11,3 +11,8 @@ For Loop
     semi colons are required;
     increment known as the iterator or iteration step
     curly braces to define loop code block (body)
+
+while and do while break
+    do {           <-- Curly braces to define loop code block (body)
+        //statement
+    }   while (condition);  <---semi colon required

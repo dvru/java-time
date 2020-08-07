@@ -8,7 +8,6 @@ public class ReadUserInput {
         System.out.println("Enter your year of birth: ");
 
         boolean hasNextInt = scanner.hasNextInt();
-
         if(hasNextInt){
             int yearOfBirth = scanner.nextInt();
             scanner.nextLine(); // handle next line character (enter key)

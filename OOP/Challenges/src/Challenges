@@ -1,0 +1,12 @@
+
+Carpet Cost Calculator
+    The Carpet Company has asked you to write an application that calculates the price of carpeting for rectangular rooms.
+    To calculate the price, you multiply the area of the floor (width times length) by the price per square meter of carpet.
+    For example, the area of the floor that is 12 meters long and 10 meters wide is 120 square meters.
+    To cover the floor with a carpet that costs $8 per square meter would cost $960.
+
+Complex Operations
+    A complex number is a number that can be expressed in the form a + bi, where a and b are real numbers, and i is a solution of the equation x2 = −1.
+    Because no real number satisfies this equation, i is called an imaginary number. For the complex number a + bi, a is called the real part, and b is called the imaginary part.
+    To add or subtract two complex numbers, just add or subtract the corresponding real and imaginary parts.
+    For instance, the sum of 5 + 3i and 4 + 2i is 9 + 5i. For another, the sum of 3 + i and –1 + 2i is 2 + 3i.

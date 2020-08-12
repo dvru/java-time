@@ -1,0 +1,11 @@
+this vs super
+
+super
+    used to access/call the parent class members
+    (variables and methods)
+    - Used with method overriding
+this
+    used to call the current class members (variables and methods)
+    This is required when we have a parameter with the same
+    name as an instance variable(field)
+    - Used with constructors and setters, optional getter.

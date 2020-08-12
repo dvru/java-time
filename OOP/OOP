@@ -9,3 +9,15 @@ this
     This is required when we have a parameter with the same
     name as an instance variable(field)
     - Used with constructors and setters, optional getter.
+
+static
+    cant use the "this" keyword
+    A method that does have use variable instances, should be declared static
+
+Method Overloading
+    means providing two or more separate methods in a class
+    with the same name but different params
+Method return
+    allows us to reuse the same method name
+Overloading
+    reduces duplicating code, so don't have to remember method nam

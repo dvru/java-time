@@ -14,7 +14,7 @@ public class Bed {
     }
 
     public void make(){
-        System.out.println("Bed -> Make");
+        System.out.println("Bed -> Making");
     }
 
     public String getStyle() {

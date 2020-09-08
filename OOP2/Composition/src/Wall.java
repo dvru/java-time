@@ -1,5 +1,6 @@
 public class Wall {
 
+
     private String direction;
 
     public Wall(String direction) {
@@ -10,3 +11,4 @@ public class Wall {
         return direction;
     }
 }
+

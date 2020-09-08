@@ -17,6 +17,7 @@ public class Main {
 
 
 
+
         EnhancedPlayer player = new EnhancedPlayer("Beth", 200, "Sword");
         System.out.println("Initial Health is " + player.getHealth());
     }

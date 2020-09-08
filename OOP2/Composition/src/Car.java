@@ -8,3 +8,6 @@ public class Car extends Vehicle{
         this.engineCapacity = engineCapacity;
     }
 }
+
+
+// Inheritance, "Is a" relationship, Car extends from Vehicle, Car "is a' Vehicle

@@ -15,6 +15,13 @@ Composition
 Encapsulation
     - mechanism that allows you to restrict access to certain components in the objects that you are creating.
     - So, you're able to protect the members of a class from external access in order to really guard against unauthorized access.
+        - We want the ability to override the code and have more control to them
+
+    - For ex. A player should have a limited about of health points, given the validation and should not
+      be able to change internally.
+      - By making our fields within a class Private, so that the class or fields are not accessible to any
+        classes that are outside that particular class
+
 
 Polymorphism
 

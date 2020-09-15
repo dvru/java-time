@@ -25,4 +25,7 @@ Encapsulation
          So we're doing that to prevent unauthorized set up or access.
 
 Polymorphism
-
+    - Method or the mechanism in object oriented programming, that allows actions to act differently
+      based on the actual object that the action is being performed on.
+    - Need to create multiple classes
+    - For ex.

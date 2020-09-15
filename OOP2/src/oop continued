@@ -19,9 +19,10 @@ Encapsulation
 
     - For ex. A player should have a limited about of health points, given the validation and should not
       be able to change internally.
-      - By making our fields within a class Private, so that the class or fields are not accessible to any
+      -- By making our fields within a class Private, so that the class or fields are not accessible to any
         classes that are outside that particular class
-
+      -- Keep things confined and protect the members of the class and methods from external access,
+         So we're doing that to prevent unauthorized set up or access.
 
 Polymorphism
 

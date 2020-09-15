@@ -5,7 +5,7 @@ Inheritance
     - For ex. Car and a Vehicle, a Car extends from Vehicle, meaning a Car is a Vehicle
 
 Composition
-    - "has a" relationship between classes,
+    - "has a" relationship between classes, modeling part of the classes and then the classes alone.
     - For ex. PC has a Motherboard, a Monitor, and Case
         - Those classes also have other classes, Monitor "has a" resolution, Case "has a" Dimensions
         - PC then holds everything composed together, and a Motherboard, a Monitor, and Case
@@ -13,6 +13,8 @@ Composition
 
 
 Encapsulation
+    - mechanism that allows you to restrict access to certain components in the objects that you are creating.
+    - So, you're able to protect the members of a class from external access in order to really guard against unauthorized access.
 
 Polymorphism
 

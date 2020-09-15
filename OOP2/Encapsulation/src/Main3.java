@@ -57,7 +57,6 @@ class Mitsubishi extends Car {
 
 
 
-
 public class Main3 {
     public static void main(String[] args){
 
@@ -71,7 +70,7 @@ public class Main3 {
         System.out.println(mitsubishi.accelerate());
         System.out.println(mitsubishi.brake());
 
-        Car ford = new Car(6, "Ford");
+        Car ford = new Car(6, "Ford"); // ford inline class
 //        { // inline class
 //            @Override
 //            public String startEngine() {
@@ -91,7 +90,14 @@ public class Main3 {
         System.out.println(ford.startEngine());
         System.out.println(ford.accelerate());
         System.out.println(ford.brake());
+
+        Holden holden = new Holden(6, "Outlander");
+        System.out.println(holden.startEngine());
+        System.out.println(holden.accelerate());
+        System.out.println(holden.brake());
     }
+
+
 }
 
 // We are going to go back to the car analogy.

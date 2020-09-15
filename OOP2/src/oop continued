@@ -28,4 +28,10 @@ Polymorphism
     - Method or the mechanism in object oriented programming, that allows actions to act differently
       based on the actual object that the action is being performed on.
     - Need to create multiple classes
-    - For ex.
+    -- It will automatically, if you're inheriting from another class, and you've got a method,
+      and you override that method, that's what polymorphism is.
+    -- It's giving unique functionality, for the class that has inherited from a base class.
+    - For ex. A Movie class that has multiple movies extending from that main class, which includes unique methods
+              within the main class so that it can call from.
+              Movie has a plot and not plot method, if one of the movie classes has no plot method it will go back
+              to the main movie class and call that method.

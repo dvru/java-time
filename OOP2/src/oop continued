@@ -7,8 +7,10 @@ Inheritance
 Composition
     - "has a" relationship between classes,
     - For ex. PC has a Motherboard, a Monitor, and Case
-    - Those classes also have other classes, Monitor "has a" resolution, Case "has a" Dimensions
-    - PC then holds everything composed together, and a Motherboard, a Monitor, and Case
+        - Those classes also have other classes, Monitor "has a" resolution, Case "has a" Dimensions
+        - PC then holds everything composed together, and a Motherboard, a Monitor, and Case
+    - For ex. Bedroom has a wall, Ceiling, bed, lamp
+
 
 Encapsulation
 

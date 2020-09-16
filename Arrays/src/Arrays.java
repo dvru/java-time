@@ -18,11 +18,20 @@ public class Arrays {
         for(int i=0; i<10; i++){ // starting element 0 within the loop times by 10
             myIntArray[i] = i*10;
         }
+
         for(int i=0; i<10; i++){ // starting element 0 within the loop times by 10
             System.out.println("Element " + i + ", value is " + myIntArray[i]);
         }
+
+        // Using a method within a for loop, instead of a hard coding a value, you can use .length.
+//        int[] myIntArray = new int[25];
+//        for(int i=0; i<myIntArray.length; i++){ // starting element 0 within the loop times by 10
+//            myIntArray[i] = i*10;
+//        }
+//        for(int i=0; i<myIntArray.length; i++){ // starting element 0 within the loop times by 10
+//            System.out.println("Element " + i + ", value is " + myIntArray[i]);
+//        }
+
     }
-
-
 
 }

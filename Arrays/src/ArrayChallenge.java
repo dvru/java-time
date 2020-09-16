@@ -6,6 +6,8 @@ public class ArrayChallenge {
 
     public static void main(String[] args){
         int[] myIntegers = getIntegers(5);
+        int[] sorted = sortIntegers(myIntegers);
+        printArray(sorted);
     }
 
     public static int[] getIntegers(int capacity){
@@ -33,6 +35,12 @@ public class ArrayChallenge {
 
         while(flag){
             flag = false;
+
+//            element 1  50
+//            element 2  160
+//            element 3   40
+
+
             for(int i=0; i<sortedArray.length-1; i++){
                 if(sortedArray[i] < sortedArray[i+1]){
                     temp = sortedArray[i];

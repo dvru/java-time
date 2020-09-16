@@ -1,0 +1,11 @@
+
+Array
+    - An array is a data structure that allows us to store multiple values of the same type into a
+    single variable. The default values of a numeric array elements are set to zero
+    arrays are zero indexed, so an array with n elements is indexed from 0 to n take 1.
+        - So for example 10 elements the index range would be from 0 through 9.
+        Now if we try to access an index that is out of range
+    - Java will give us an array index out of bounds exception that which indicates
+    that the index is out of range in other words, out of bounds we're trying to
+    access an element that is outside of what we've defined. To access array elements,
+    we use square braces this is also known as the array access operator.

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/Basics/ByteShortIntLong/ByteShortIntLong.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP2/Challenge/OOP2/Challenge.iml" filepath="$PROJECT_DIR$/OOP2/Challenge/OOP2/Challenge.iml" />

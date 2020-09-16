@@ -41,8 +41,8 @@ public class ArrayChallenge {
 //            element 3   40
 
 
-            for(int i=0; i<sortedArray.length-1; i++){
-                if(sortedArray[i] < sortedArray[i+1]){
+            for(int i=0; i<sortedArray.length-1; i++){ // -1 for descending
+                if(sortedArray[i] < sortedArray[i+1]){ // sorting through the array, one by one
                     temp = sortedArray[i];
                     sortedArray[i] = sortedArray[i+1];
                     sortedArray[i+1] = temp;

@@ -1,5 +1,8 @@
 OOP - Object Oriented Programming, 4 types.
 
+The 4 types of OOP are: encapsulation, abstraction, inheritance, and polymorphism
+
+
 Inheritance
     - "is a" relationship between classes, where one class extends information from another
     - For ex. Car and a Vehicle, a Car extends from Vehicle, meaning a Car is a Vehicle

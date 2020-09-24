@@ -3,7 +3,7 @@ OOP - Object Oriented Programming, 4 types.
 Inheritance
     - "is a" relationship between classes, where one class extends information from another
     - For ex. Car and a Vehicle, a Car extends from Vehicle, meaning a Car is a Vehicle
-
+VS
 Composition
     - "has a" relationship between classes, modeling part of the classes and then the classes alone.
     - For ex. PC has a Motherboard, a Monitor, and Case

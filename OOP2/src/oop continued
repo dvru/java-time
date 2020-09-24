@@ -14,6 +14,22 @@ Composition
         - PC then holds everything composed together, and a Motherboard, a Monitor, and Case
     - For ex. Bedroom has a wall, Ceiling, bed, lamp
 
+Abstraction
+	- concept of object-oriented programming that "shows" only essential attributes and "hides" unnecessary information.
+	The main purpose of abstraction is hiding the unnecessary details from the users.
+	Abstraction is selecting data from a larger pool to show only relevant details of the object to the user.
+	It helps in reducing programming complexity and efforts.
+
+	- For Ex: Suppose you want to create a banking application and you are asked
+	to collect all the information about your customer. There are chances that you will
+	come up with following information about the customer,
+	But, not all of the above information is required to create a banking application.
+	So, you need to select only the useful information for your banking application
+	from that pool. Data like name, address, tax information, etc. make sense for a
+	banking application,
+	Since we have fetched/removed/selected the customer information from a larger pool,
+	the process is referred as Abstraction.
+
 
 Encapsulation
     - mechanism that allows you to restrict access to certain components in the objects that you are creating.

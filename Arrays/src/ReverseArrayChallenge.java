@@ -16,8 +16,8 @@ public class ReverseArrayChallenge {
     private static void reverse(int[] array){
 
         int maxIndex = array.length -1; //declare int variable
-        int halfLength = array.length / 2;
-        for (int i=0; i<halfLength; i++){
+        int halfLength = array.length / 2; // split the array
+        for (int i=0; i<halfLength; i++){ // loop over every element in the array but swapping the first and last value
             int temp = array[i];
             array[i] = array[maxIndex -i];
             array[maxIndex - i] = temp;

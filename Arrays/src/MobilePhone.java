@@ -10,25 +10,35 @@ public class MobilePhone {
     }
 
     public boolean addNewContact(Contact contact) { // if the contact with the same name is added
-        if(findContact(contact.getName()) >=0) {
+        if (findContact(contact.getName()) >= 0) {
             System.out.println("Contact is already on file");
             return false;
         }
 
         myContacts.add(contact); // other wise add new contact
         return true;
-
     }
 
     public boolean updateContact(Contact oldContact, Contact newContact) {
         int foundPosition = findContact(oldContact);
-        if(foundPosition <0) {
-            System.out.println(oldContact.getName() +", was not found.");
+        if (foundPosition < 0) {
+            System.out.println(oldContact.getName() + ", was not found.");
             return false;
         }
 
-        this.myContacts.set(foundPosition, newContact);
+        this.myContacts.set(foundPosition, newContact); // update the old contact with a new one
         System.out.println(oldContact.getName() + ", was replaced with " + newContact.getName());
+        return true;
+    }
+
+    public boolean removeContact(Contact contact) {
+        int foundPosition = findContact(contact);
+        if (foundPosition < 0) {
+            System.out.println(contact.getName() + ", was not found.");
+            return false;
+        }
+        this.myContacts.remove(foundPosition);
+        System.out.println(contact.getName() + ", was deleted.");
         return true;
     }
 
@@ -37,13 +47,32 @@ public class MobilePhone {
     }
 
     private int findContact(String contactName) { // loop through all the contacts
-        for(int i=0; i<this.myContacts.size(); i++) {
+        for (int i = 0; i < this.myContacts.size(); i++) {
             Contact contact = this.myContacts.get(i);
-            if(contact.getName().equals(contactName)) { // if name entered matched the name listed return name
+            if (contact.getName().equals(contactName)) { // if name entered matched the name listed return name
                 return i;
             }
         }
         return -1; // if not return -1
     }
+
+    public String queryContact(Contact contact) {
+        if (findContact(contact) >= 0) {
+            return contact.getName();
+        }
+        return null;
+    }
+
+    public void printContacts() {
+        System.out.println("Contact List");
+        for (int i = 0; i < this.myContacts.size(); i++) {
+            System.out.println((i + 1) + "." +
+                    this.myContacts.get(i).getName() + " -> " +
+                    this.myContacts.get(i).getPhoneNumber());
+        }
+
+    }
 }
+
+
 

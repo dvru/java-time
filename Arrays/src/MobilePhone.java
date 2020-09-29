@@ -9,14 +9,15 @@ public class MobilePhone {
         this.myContacts = new ArrayList<Contact>();
     }
 
-    public boolean addNewContact(Contact contact) { // if the contact with the same name is added
+    public boolean addNewContact(Contact contact) {
         if (findContact(contact.getName()) >= 0) {
             System.out.println("Contact is already on file");
             return false;
         }
 
-        myContacts.add(contact); // other wise add new contact
+        myContacts.add(contact);
         return true;
+
     }
 
     public boolean updateContact(Contact oldContact, Contact newContact) {
@@ -26,7 +27,7 @@ public class MobilePhone {
             return false;
         }
 
-        this.myContacts.set(foundPosition, newContact); // update the old contact with a new one
+        this.myContacts.set(foundPosition, newContact);
         System.out.println(oldContact.getName() + ", was replaced with " + newContact.getName());
         return true;
     }
@@ -42,24 +43,33 @@ public class MobilePhone {
         return true;
     }
 
-    private int findContact(Contact contact) { // element position of the contact in the array
+    private int findContact(Contact contact) {
         return this.myContacts.indexOf(contact);
     }
 
-    private int findContact(String contactName) { // loop through all the contacts
+    private int findContact(String contactName) {
         for (int i = 0; i < this.myContacts.size(); i++) {
             Contact contact = this.myContacts.get(i);
-            if (contact.getName().equals(contactName)) { // if name entered matched the name listed return name
+            if (contact.getName().equals(contactName)) {
                 return i;
             }
         }
-        return -1; // if not return -1
+        return -1;
     }
 
     public String queryContact(Contact contact) {
         if (findContact(contact) >= 0) {
             return contact.getName();
         }
+        return null;
+    }
+
+    public Contact queryContact(String name) {
+        int position = findContact(name);
+        if (position >= 0) {
+            return this.myContacts.get(position);
+        }
+
         return null;
     }
 

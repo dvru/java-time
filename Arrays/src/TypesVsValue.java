@@ -4,6 +4,7 @@ public class TypesVsValue {
 
         public static void main(String[] args) {
 
+            // Value Types
             int myIntValue = 10;
             int anotherIntValue = myIntValue;
 
@@ -15,6 +16,8 @@ public class TypesVsValue {
             System.out.println("myIntValue = " + myIntValue);
             System.out.println("anotherIntValue = " + anotherIntValue);
 
+
+            // Reference Types, Reference holds an address or Reference to the object but not the object itself
             int[] myIntArray = new int[5];
             int[] anotherArray = myIntArray;
 

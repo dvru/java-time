@@ -27,6 +27,10 @@ public class ReverseArrayChallenge {
 //          array[0] = array[4];
 //          array[4] = temp;
 
+//            when i = 2;
+//            i < halfLength;
+//            2 < 2 is false, loop stops
+
         }
     }
 }

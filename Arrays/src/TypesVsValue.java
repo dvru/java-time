@@ -20,6 +20,7 @@ public class TypesVsValue {
             // Reference Types, Reference holds an address or Reference to the object but not the object itself
             int[] myIntArray = new int[5];
             int[] anotherArray = myIntArray;
+            // 2 Reference pointing to the same array in memory
 
             System.out.println("myIntArray= " + Arrays.toString(myIntArray));
             System.out.println("anotherArray= " + Arrays.toString(anotherArray));

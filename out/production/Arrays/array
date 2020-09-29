@@ -9,3 +9,6 @@ Array
     that the index is out of range in other words, out of bounds we're trying to
     access an element that is outside of what we've defined. To access array elements,
     we use square braces this is also known as the array access operator.
+
+Reference Types
+        Reference holds an address or Reference to the object but not the object itself

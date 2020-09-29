@@ -25,8 +25,7 @@ public class ReverseArrayChallenge {
 //          when i = 0
 //          int temp = array[0];
 //          array[0] = array[4];
-//          array[4] = temp;
-
+//          array[4] = te
 //            when i = 2;
 //            i < halfLength;
 //            2 < 2 is false, loop stops

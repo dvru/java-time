@@ -26,6 +26,7 @@ public class TypesVsValue {
             System.out.println("anotherArray= " + Arrays.toString(anotherArray));
 
             anotherArray[0] = 1;
+            // assigning value of 1 to the index 0 which is the first one
 
             System.out.println("after change myIntArray= " + Arrays.toString(myIntArray));
             System.out.println("after change anotherArray= " + Arrays.toString(anotherArray));
